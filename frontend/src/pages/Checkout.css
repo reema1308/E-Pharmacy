@@ -1,0 +1,91 @@
+.checkout-container {
+    padding: 25px;
+    background: #f5fdf7;
+    min-height: 100vh;
+  }
+  
+  .checkout-title {
+    color: #2e7d32;
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+  
+  /* Layout */
+  .checkout-layout {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 25px;
+  }
+  
+  /* Boxes */
+  .checkout-box {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  }
+  
+  .checkout-box h3 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e8f5e9;
+    padding-bottom: 5px;
+  }
+  
+  /* Address */
+  .checkout-box textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    resize: none;
+    font-size: 14px;
+  }
+  
+  /* Summary items */
+  .summary-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    padding: 5px 0;
+    border-bottom: 1px dashed #ddd;
+    font-size: 14px;
+  }
+  
+  .summary-total {
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2e7d32;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Button */
+  .place-btn {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #2e7d32, #43a047);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .place-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  }
+  
+  /* Mobile */
+  @media (max-width: 768px) {
+    .checkout-layout {
+      grid-template-columns: 1fr;
+    }
+  }
+  

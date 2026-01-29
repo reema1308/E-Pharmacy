@@ -1,0 +1,101 @@
+.orders-container {
+    padding: 25px;
+    background: #f5fdf7;
+    min-height: 100vh;
+  }
+  
+  .orders-container h2 {
+    color: #2e7d32;
+    margin-bottom: 20px;
+  }
+  
+  .empty-orders {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: #777;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  }
+  
+  .order-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  }
+  
+  .order-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  /* Status badge */
+  .status {
+    padding: 6px 14px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .status.pending { background: #ff9800; }
+  .status.approved { background: #2196f3; }
+  .status.dispatched { background: #9c27b0; }
+  .status.delivered { background: #2e7d32; }
+  
+  .products {
+    margin-top: 10px;
+    background: #f6fff8;
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  .product-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin: 6px 0;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+
+  .product-name {
+    font-weight: 600;
+    color: #2e7d32;
+  }
+  
+  .product-price {
+    font-weight: bold;
+    color: #333;
+  }
+
+  /* Progress bar */
+  .progress {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .step {
+    flex: 1;
+    text-align: center;
+    padding: 6px;
+    border-radius: 20px;
+    background: #e0e0e0;
+    font-size: 12px;
+    margin: 0 4px;
+    color: #555;
+  }
+  
+  .step.active {
+    background: linear-gradient(to right, #2e7d32, #43a047);
+    color: white;
+  }
+
+  
