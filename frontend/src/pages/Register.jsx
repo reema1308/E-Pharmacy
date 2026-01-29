@@ -19,7 +19,7 @@ export default function Register() {
       alert(err.response?.data?.msg || "Registration failed");
     }
   };
-  
+  //Comment
   return (
     <div className="auth-container">
       <div className="auth-box">
